@@ -4,12 +4,12 @@ let featuredDrink = "Strawberry Milkshake"
 function addBurger(){
     const newBurger = "Flatburger"
     burgers.push(newBurger)
-    if (burgers[0] !== "Maple Bacon Burger"){
-        const addAnotherBurger = "Maple Bacon Burger"
-        burgers.push(addAnotherBurger)
+    if(true) {
+        const anotherNewBurger = 'Maple Bacon Burger'
+        burgers.push(anotherNewBurger)
     }
 }
-function changFeaturedDrink(){
+function changeFeaturedDrink(){
     featuredDrink = "The JavaShake"
 }
 
